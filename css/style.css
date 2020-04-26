@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Norsebold";
+    src:url("../font/Norsebold.otf")
+}
+
+body, html{
+    /* border: 1px solid red; */
+    height: 100%;
+    margin: 0;
+}
+
+#content{
+    background-image: url("../img/coffee2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    font-weight: bolder;
+    /* color:#e6c63b; */
+    color: #cc9543;
+    font-family: "Norsebold","Oswald", Arial;
+}
+
+header p{
+    margin-left: 10px;
+}
+
+#welcome{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    padding: 0 20px;
+    top: 300px;
+    left: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family: "Oswald", Arial;
+}
+
+#welcome p:nth-child(2){
+    margin-top: 30px;
+    font-size: 35px;
+}
