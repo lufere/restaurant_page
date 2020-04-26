@@ -2,8 +2,7 @@ function header(){
     var header = document.createElement("header");
     var logo = document.createElement("img");
     var title = document.createElement("p");
-    var content = document.querySelector("#content");
-    const norseFont = document.createElement("style");
+    var norseFont = document.createElement("style");
     header.style.height = "100px";
     header.style.backgroundColor = "black";
     header.style.fontSize = "70px";
