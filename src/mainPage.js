@@ -1,10 +1,12 @@
 function mainPage(){
-    var content = document.querySelector("#content");
+    // var content = document.querySelector("#content");
+    var content = document.createElement("div");
     var welcome = document.createElement("div");
     var welcome1 = document.createElement("p");
     var welcome2 = document.createElement("p");
     document.querySelector("body").style.height = "100%";
     document.querySelector("html").style.height = "100%";
+    content.id = "content";
     content.style.backgroundImage = `url("../img/coffee2.jpg")`;
     content.style.backgroundRepeat = "no-repeat";
     content.style.backgroundSize = "cover";

@@ -2,13 +2,16 @@ function header(){
     var header = document.createElement("header");
     var logo = document.createElement("img");
     var title = document.createElement("p");
+    // title.id = "title";
     var banner = document.createElement("div");
     var norseFont = document.createElement("style");
     var navigation = document.createElement("div");
     var menuLink = document.createElement("a");
     var contactLink = document.createElement("a");
+    var homeLink = document.createElement("a");
     menuLink.id = "menu";
     contactLink.id = "contact";
+    homeLink.id = "home";
     banner.style.display = "flex";
     banner.style.alignItems = "center";
     banner.style.marginLeft = "10px";
@@ -32,8 +35,11 @@ function header(){
     menuLink.innerHTML = "MENU";
     menuLink.style.marginRight = "30px";
     contactLink.innerHTML = "CONTACT";
+    homeLink.innerHTML = "HOME";
+    homeLink.style.marginRight = "30px";
     navigation.style.fontSize = "50px";
     navigation.style.marginRight = "40px";
+    navigation.appendChild(homeLink);
     navigation.appendChild(menuLink);
     navigation.appendChild(contactLink);
     banner.appendChild(logo);
