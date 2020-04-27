@@ -17,7 +17,7 @@ function menu(){
     muffinImg.style.width = "350px";
 
     content.id = "content";
-    content.style.backgroundImage = `url("../img/coffee3.jpg")`;
+    content.style.backgroundImage = `url("../img/coffee4.jpg")`;
     content.style.backgroundRepeat = "no-repeat";
     content.style.backgroundSize = "cover";
     content.style.height ="100%";
@@ -30,7 +30,7 @@ function menu(){
     coffeeCup.style.height = "350px";
     coffeeCup.style.top = "200px";
     coffeeCup.style.color = "white";
-    coffeeCup.innerHTML = "A cup of coffee";
+    coffeeCup.innerHTML = "Cup of Coffee";
     coffeeCup.style.padding = "40px";
     coffeeCup.style.textAlign = "center";
     coffeeCup.style.fontSize = "40px";

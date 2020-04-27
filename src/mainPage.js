@@ -7,7 +7,7 @@ function mainPage(){
     document.querySelector("body").style.height = "100%";
     document.querySelector("html").style.height = "100%";
     content.id = "content";
-    content.style.backgroundImage = `url("../img/coffee2.jpg")`;
+    content.style.backgroundImage = `url("../img/coffee5.jpg")`;
     content.style.backgroundRepeat = "no-repeat";
     content.style.backgroundSize = "cover";
     content.style.height ="100%";
